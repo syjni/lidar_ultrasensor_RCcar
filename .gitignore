@@ -1,0 +1,51 @@
+# Build outputs
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+*.srec
+
+# IDE/workspace metadata
+.metadata/
+.vs/
+.vscode/
+*.atsuo
+*.user
+*.lock
+IDE.log
+temp_xsdb_launch_script.tcl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated telemetry and plots
+accel_logs/
+accel_graphs/
+graphs/
+*.csv
+*.log
+
+# Large/project submission artifacts
+*.zip
+*.mp4
+*.pptx
+*.pdf
+KakaoTalk_*
+
+# Local secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
